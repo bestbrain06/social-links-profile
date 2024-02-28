@@ -1,0 +1,8 @@
+:root {
+  --clr-primary: hsl(75, 94%, 57%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-500: hsl(0, 0%, 20%);
+  --clr-neutral-700: hsl(0, 0%, 12%);
+  --clr-neutral-800: hsl(0, 0%, 8%);
+}
