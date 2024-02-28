@@ -45,3 +45,13 @@
   --fs-large: 1.25rem; /* 20 */
   --fs-xlarge: 1.375rem; /* 22px */
 }
+
+/* <======= CSS RESET ========> */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
