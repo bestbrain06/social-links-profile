@@ -79,3 +79,80 @@ a:hover,
 a:focus {
   color: currentColor;
 }
+
+span {
+  display: block;
+}
+
+p {
+  font-size: var(--fs-xsmall);
+}
+
+/* <======== CARD =====> */
+.card {
+  width: 100%;
+  max-width: 350px;
+  background-color: var(--clr-neutral-700);
+
+  padding: 1.5rem;
+  text-align: center;
+
+  border-radius: 0.7rem;
+}
+
+.card__image img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.card__title,
+.card__address {
+  margin-top: 10px;
+}
+
+.card__title {
+  font-size: var(--fs-large);
+  font-weight: var(--fw-semi-bold);
+}
+
+.card__address {
+  font-size: var(--fs-xsmall);
+  color: var(--clr-primary);
+}
+
+.card__description {
+  color: var(--clr-neutral-100);
+  opacity: 0.7;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__link {
+  font-size: var(--fs-xsmall);
+
+  background-color: var(--clr-neutral-500);
+  color: var(--clr-neutral-100);
+
+  cursor: pointer;
+
+  padding: 5px 0;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.card__link:hover,
+.card__link:focus {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-800);
+}
