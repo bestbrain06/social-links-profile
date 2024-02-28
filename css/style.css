@@ -60,8 +60,13 @@
 body {
   font-family: var(--ff-regular);
   font-weight: var(--fw-regular);
+
   background-color: var(--clr-neutral-800);
   color: var(--clr-neutral-100);
+
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 a {
