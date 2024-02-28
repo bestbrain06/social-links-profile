@@ -60,6 +60,8 @@
 body {
   font-family: var(--ff-regular);
   font-weight: var(--fw-regular);
+  background-color: var(--clr-neutral-800);
+  color: var(--clr-neutral-100);
 }
 
 a {
