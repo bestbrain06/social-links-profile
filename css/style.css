@@ -55,3 +55,20 @@
   box-sizing: border-box;
   font: inherit;
 }
+
+/* <======== BASE CSS STYLING ========> */
+body {
+  font-family: var(--ff-regular);
+  font-weight: var(--fw-regular);
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+  color: currentColor;
+}
