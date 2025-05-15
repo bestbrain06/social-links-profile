@@ -88,7 +88,7 @@ a {
 /* ----------- COMPONENETS ----------- */
 .btn {
   font-size: 1.4rem;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
   display: block;
   border-radius: 0.5rem;
 }
@@ -109,7 +109,6 @@ a {
 /* ------------- CARD --------- */
 .card {
   background-color: var(--grey-shade);
-
   margin: 0 auto;
   max-width: 320px;
   width: 100%;
@@ -137,6 +136,8 @@ a {
 }
 
 .person-job {
+  color: #808080;
+  font-weight: var(--fw-semi-bold);
   margin-bottom: 2rem;
 }
 
