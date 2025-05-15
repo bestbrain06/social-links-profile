@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![](images\qr-code-component-screenshot.png)
+![](assets\images\Screenshot Frontend Mentor Social links profile.png)
 
 ## My process
 
