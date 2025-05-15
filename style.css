@@ -1,0 +1,149 @@
+/*  ---------------- GLOBAL SYTYLES ------------- */
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+:root {
+  --primary: hsl(75, 94%, 57%);
+
+  --white: hsl(0, 0%, 100%);
+
+  --grey-tint: hsl(0, 0%, 20%);
+  --grey-shade: hsl(0, 0%, 12%);
+  --dark: hsl(0, 0%, 8%);
+
+  --ff: Inter, sans-serif;
+
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff);
+  font-weight: var(--fw-regular);
+  font-size: 1.4rem;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.container {
+  max-width: 1440px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: var(--fw-bold);
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* ----------- COMPONENETS ----------- */
+.btn {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+.btn:link,
+.btn:visited {
+  color: var(--white);
+  background-color: var(--grey-tint);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btn:hover,
+.btn:active {
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
+/* ------------- CARD --------- */
+.card {
+  background-color: var(--grey-shade);
+
+  margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card-image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-bottom: 2.5rem;
+}
+
+.person-name {
+  margin-bottom: 0.5rem;
+}
+
+.person-location {
+  color: var(--primary);
+  margin-bottom: 2.5rem;
+}
+
+.person-job {
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  width: 100%;
+}
